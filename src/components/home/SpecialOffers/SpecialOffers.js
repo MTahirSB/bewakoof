@@ -25,7 +25,7 @@ const SpecialOffers = () => {
         <Product
           _id="1102"
           img={spfTwo}
-          productName="Tea Table"
+          productName="Clothing"
           price="180.00"
           color="Gray"
           badge={true}
@@ -34,7 +34,7 @@ const SpecialOffers = () => {
         <Product
           _id="1103"
           img={spfThree}
-          productName="Headphones"
+          productName="Clothing"
           price="25.00"
           color="Mixed"
           badge={true}
