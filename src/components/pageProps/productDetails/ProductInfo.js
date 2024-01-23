@@ -6,8 +6,17 @@ const ProductInfo = ({ productInfo }) => {
   const dispatch = useDispatch();
   return (
     <div className="flex flex-col gap-5">
-      <h2 className="text-4xl font-semibold">{productInfo.productName}</h2>
-      <p className="text-xl font-semibold">${productInfo.price}</p>
+      <h2 className="text-2xl opacity-70">{productInfo.productName}</h2>
+      <div className="flex gap-2">
+      <p className="text-3xl font-semibold">${productInfo.price}</p>
+      <p className="text-xl line-through ">${productInfo.price}</p>
+      <p className="text-2xl text-emerald-600 font-semibold">${productInfo.price%productInfo.price}% OFF</p>
+      
+      </div>
+      <p>inclusive of all taxes</p>
+      <div>
+        
+      </div>
       <p className="text-base text-gray-600">{productInfo.des}</p>
       <p className="text-sm">Be the first to leave a review.</p>
       <p className="font-medium text-lg">
