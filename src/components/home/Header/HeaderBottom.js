@@ -11,16 +11,16 @@ import { paginationItems } from "../../../constants";
 
 const HeaderBottom = () => {
   return (
-    <div className=" flex w-full bg-white relative">
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Sale </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >WinterWear </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Men </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Women </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Accessories </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Heavy Duty </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Bewakoof Air </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Official Merch </a>
-      <a href="" className="px-8 font-thin font-bold justify-center position: fixed; top: 78px;" >Plus Size </a>
+    <div className=" flex w-full bg-white relative px-8 font-thin font-bold justify-center position: fixed; top: 78px;">
+      <Link to="/Men" className="">Men</Link>
+     <Link to="/Sale" >Sale </Link>
+     <Link to="/WinterWear" >WinterWear </Link>
+     <Link to="/Women" >Women </Link>
+     <Link to="/Accesories" >Accesories </Link>
+     <Link to="/HeavyDuty" >Heavy Duty </Link>
+     <Link to="/BewakoofAir" >Bewakoof Air </Link>
+     <Link to="/OfficialMerch" >Official Merch </Link>
+     <Link to="/PlusSize" >Plus Size </Link>
       
     </div>
   );
