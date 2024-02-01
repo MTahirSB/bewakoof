@@ -1,4 +1,4 @@
-import logo from "./orebiLogo.png";
+import Loginimg from "./Loginimg.png";
 import logoLight from "./logoLight.png";
 import bannerImgOne from "./banner/bannerImgOne.webp";
 import bannerImgTwo from "./banner/bannerImgTwo.webp";
@@ -39,7 +39,7 @@ import paymentCard from "./payment.png";
 import emptyCart from "../images/emptyCart.png";
 
 export {
-  logo,
+  Loginimg,
   logoLight,
   bannerImgOne,
   bannerImgTwo,
