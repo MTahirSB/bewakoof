@@ -11,8 +11,8 @@ import { paginationItems } from "../../../constants";
 
 const HeaderBottom = () => {
   return (
-    <div className=" flex w-full bg-white relative px-8 font-thin font-bold justify-center position: fixed; top: 78px;">
-      <Link to="/Men" className="">Men</Link>
+    <div className=" flex w-full bg-white relative p-2 gap-20 font-medium justify-center position: fixed; top: 78px;">
+     <Link to="/Men" className="">Men</Link>
      <Link to="/Sale" >Sale </Link>
      <Link to="/WinterWear" >WinterWear </Link>
      <Link to="/Women" >Women </Link>

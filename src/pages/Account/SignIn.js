@@ -389,103 +389,115 @@ const SignIn = () => {
           </Flex>
         </nav>
       </div>
-      <div className="w-full flex flex-row">
-      <div className=" w-1/2 hidden lgl:inline-flex h-full text-white ">
-        <div className="w-full bg-primeColor flex flex-col ">
-          
-         <div className=" flex-grow w-full h-full bg-gradient-to-b from-white to-slate-600 ">
-         <div className=" pt-12 m-2 ">
-         <h1 className=" font-titleFont text-3xl text-black font-bold">
-            Welcome to the world of Bewakoof®!
-            </h1>
-           
-           
-          
-          <Image imgSrc={Loginimg} />
-          </div></div>
-        </div>
-      </div>
-      <div className=" lgl:w-1/2 h-full">
-        {successMsg ? (
-          <div className="w-full lgl:w-[500px] h-full flex flex-col justify-center">
-            <p className="w-full px-4 py-10 text-green-500 font-medium font-titleFont">
-              {successMsg}
-            </p>
-            <Link to="/signup">
-              <button
-                className="w-full h-10 bg-primeColor text-gray-200 rounded-md text-base font-titleFont font-semibold 
-            tracking-wide hover:bg-black hover:text-white duration-300"
-              >
-                Sign Up
-              </button>
-            </Link>
-          </div>
-        ) : (
-          <form className="w-full lgl:w-[450px] h-screen flex items-center justify-center">
-            <div className="px-6 py-4 w-full h-[90%] flex flex-col justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-primeColor">
-              <h1 className="font-titleFont underline underline-offset-4 decoration-[1px] font-semibold text-3xl mdl:text-4xl mb-4">
-                Sign in
-              </h1>
-              <div className="flex flex-col gap-3">
-                {/* Email */}
-                <div className="flex flex-col gap-.5">
-                  <p className="font-titleFont text-base font-semibold text-gray-600">
-                    Work Email
-                  </p>
-                  <input
-                    onChange={handleEmail}
-                    value={email}
-                    className="w-full h-8 placeholder:text-sm placeholder:tracking-wide px-4 text-base font-medium placeholder:font-normal rounded-md border-[1px] border-gray-400 outline-none"
-                    type="email"
-                    placeholder="john@workemail.com"
-                  />
-                  {errEmail && (
-                    <p className="text-sm text-red-500 font-titleFont font-semibold px-4">
-                      <span className="font-bold italic mr-1">!</span>
-                      {errEmail}
-                    </p>
-                  )}
-                </div>
+      <div className=" w-full flex flex-row">
+        <div className=" w-1/2 hidden lgl:inline-flex h-full text-white ">
+          <div className=" w-full bg-primeColor flex flex-col ">
+            <div className="  w-full h-full bg-gradient-to-b from-white to-[#fff4c4] ">
+              <div className=" pt-12 m-2 ">
+                <h1 className=" font-titleFont text-3xl text-black font-bold pb-28">
+                  Welcome to the world of Bewakoof®!
+                </h1>
 
-                {/* Password */}
-                <div className="flex flex-col gap-.5">
-                  <p className="font-titleFont text-base font-semibold text-gray-600">
-                    Password
-                  </p>
-                  <input
-                    onChange={handlePassword}
-                    value={password}
-                    className="w-full h-8 placeholder:text-sm placeholder:tracking-wide px-4 text-base font-medium placeholder:font-normal rounded-md border-[1px] border-gray-400 outline-none"
-                    type="password"
-                    placeholder="Create password"
-                  />
-                  {errPassword && (
-                    <p className="text-sm text-red-500 font-titleFont font-semibold px-4">
-                      <span className="font-bold italic mr-1">!</span>
-                      {errPassword}
-                    </p>
-                  )}
-                </div>
-
-                <button
-                  onClick={handleSignUp}
-                  className="bg-primeColor hover:bg-black text-gray-200 hover:text-white cursor-pointer w-full text-base font-medium h-10 rounded-md  duration-300"
-                >
-                  Sign In
-                </button>
-                <p className="text-sm text-center font-titleFont font-medium">
-                  Don't have an Account?{" "}
-                  <Link to="/signup">
-                    <span className="hover:text-blue-600 duration-300">
-                      Sign up
-                    </span>
-                  </Link>
-                </p>
+                <Image imgSrc={Loginimg} />
               </div>
             </div>
-          </form>
-        )}
-      </div>
+          </div>
+        </div>
+        <div className=" lgl:w-1/2 h-full">
+          {successMsg ? (
+            <div className="w-full lgl:w-[500px] h-full flex flex-col justify-center">
+              <p className="w-full px-4 py-10 text-green-500 font-medium font-titleFont">
+                {successMsg}
+              </p>
+              <Link to="/signup">
+                <button
+                  className="w-full h-10 bg-primeColor text-gray-200 rounded-md text-base font-titleFont font-semibold 
+            tracking-wide hover:bg-black hover:text-white duration-300"
+                >
+                  Sign Up
+                </button>
+              </Link>
+            </div>
+          ) : (
+            <form className="w-full h-screen flex items-center justify-center">
+              <div className="px-6 py-4 w-full h-[90%] flex flex-col justify-center overflow-y-scroll scrollbar-thin scrollbar-thumb-primeColor">
+                <h1 className="font-titleFont underline underline-offset-4 decoration-[1px] font-semibold text-3xl mdl:text-5xlxl mb-4">
+                  Sign in
+                </h1>
+                <div className="flex flex-col gap-3">
+                  {/* Email */}
+                  <div className="flex flex-col gap-3">
+                    <p className="font-titleFont text-base font-semibold text-gray-600">
+                      Work Email
+                    </p>
+                    <input
+                      onChange={handleEmail}
+                      value={email}
+                      className="w-full h-8 placeholder:text-sm placeholder:tracking-wide px-4 text-base font-medium placeholder:font-normal rounded-md border-[1px] border-gray-400 outline-none"
+                      type="email"
+                      placeholder="john@workemail.com"
+                    />
+                    {errEmail && (
+                      <p className="text-sm text-red-500 font-titleFont font-semibold px-4">
+                        <span className="font-bold italic mr-1">!</span>
+                        {errEmail}
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Password */}
+                  <div className="flex flex-col gap-.5">
+                    <p className="font-titleFont text-base font-semibold text-gray-600">
+                      Password
+                    </p>
+                    <input
+                      onChange={handlePassword}
+                      value={password}
+                      className="w-full h-8 placeholder:text-sm placeholder:tracking-wide px-4 text-base font-medium placeholder:font-normal rounded-md border-[1px] border-gray-400 outline-none"
+                      type="password"
+                      placeholder="Create password"
+                    />
+                    {errPassword && (
+                      <p className="text-sm text-red-500 font-titleFont font-semibold px-4">
+                        <span className="font-bold italic mr-1">!</span>
+                        {errPassword}
+                      </p>
+                    )}
+                  </div>
+
+                  <button
+                    onClick={handleSignUp}
+                    className="bg-teal-500 hover:bg-teal-400 text-gray-200 hover:text-white cursor-pointer w-full text-base font-medium h-10 rounded-md  duration-300"
+                  >
+                    Continue
+                  </button>
+                  <div className="flex gap-2 items-center justify-center">
+                    <div className="h-[1px] w-1/2 bg-black opacity-50 -z-10"></div>
+                    <h2 className="font-thin opacity-80">OR</h2>
+                    <div className="h-[1px] w-1/2 bg-black opacity-50 -z-10"></div>
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <h2 className="border-2 p-1 border-black rounded-md text-center justify-center">
+                      CONTINUE WITH EMAIL
+                    </h2>
+                    <div className="w-full gap-2 flex">
+                      <h2 className="border-2 py-1 px-4 border-black rounded-md text-center justify-center">GOOGLE</h2>
+                      <h2 className="border-2 py-1 px-4 border-black rounded-md text-center justify-center">FACEBOOK</h2>
+                    </div>
+                  </div>
+                  <p className="text-sm text-center font-titleFont font-medium">
+                    Don't have an Account?{" "}
+                    <Link to="/signup">
+                      <span className="hover:text-blue-600 duration-300">
+                        Sign up
+                      </span>
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </form>
+          )}
+        </div>
       </div>
     </div>
   );
