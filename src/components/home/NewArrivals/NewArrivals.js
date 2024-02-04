@@ -51,7 +51,7 @@ const NewArrivals = () => {
     ],
   };
   return (
-    <div className="w-[1200px] ">
+    <div className="w-[1400px] ">
       <Heading heading="New Arrivals" />
       <Slider {...settings}>
         <div className="px-2">
