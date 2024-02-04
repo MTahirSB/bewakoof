@@ -85,9 +85,9 @@ const Header = () => {
           <Link to="/">
             <div className="">
               <img
-                className="h-40 w-40"
+                className="h-10 w-40"
                 alt="BEWAKOOF"
-                src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
               />
               {/* <h1 className="font-extrabold font-titleFont text-3xl bg-yellow-600">BEWAKOOF</h1> */}
             </div>
@@ -106,18 +106,110 @@ const Header = () => {
                     dismissOnClick={false}
                     renderTrigger={() => <span>Men</span>}
                   >
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
-                      Dashboard
+                    <div className="flex">
+                    <div className="flex-col">
+                      <Dropdown.Item onClick={() => alert("Topwear!")}>
+                      TopWear
+                                        
                     </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    </div>
+                    
+                    <div>
                     <Dropdown.Item onClick={() => alert("Settings!")}>
-                      Settings
+                      BottomWear
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Earnings!")}>
-                      Earnings
+                    
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    
+                    </div>
+                    <div>
+                    <Dropdown.Item onClick={() => alert("Settings!")}>
+                      WinterWear
+                    </Dropdown.Item>
+                    
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
+                      Printed T-Shirts
+                    </Dropdown.Item>
+                    
+                    </div>
+                    </div>
+                    <div className="flex">
+                      <Dropdown.Item onClick={() => alert("Sign out!")}>
+                      Accessories
                     </Dropdown.Item>
                     <Dropdown.Item onClick={() => alert("Sign out!")}>
-                      Sign out
+                      PlusSize
                     </Dropdown.Item>
+                    </div>
+              
                   </Dropdown>
                   <Dropdown
                     label=""
@@ -126,38 +218,38 @@ const Header = () => {
                   >
                     <div className="flex">
                     <div className="flex-col">
-                      <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                      <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       TopWear
                                         
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
+                    <Dropdown.Item onClick={() => alert("Printed T-Shirts!")}>
                       Printed T-Shirts
                     </Dropdown.Item>
                     </div>
                     
                     <div>
-                    <Dropdown.Item onClick={() => alert("Settings!")}>
+                    <Dropdown.Item onClick={() => alert("Bottomwear!")}>
                       BottomWear
                     </Dropdown.Item>
                     
@@ -188,7 +280,7 @@ const Header = () => {
                     
                     </div>
                     <div>
-                    <Dropdown.Item onClick={() => alert("Settings!")}>
+                    <Dropdown.Item onClick={() => alert("WinterWear!")}>
                       WinterWear
                     </Dropdown.Item>
                     
@@ -233,18 +325,110 @@ const Header = () => {
                     dismissOnClick={false}
                     renderTrigger={() => <span>Mobile Covers</span>}
                   >
-                    <Dropdown.Item onClick={() => alert("Dashboard!")}>
-                      Dashboard
+                    <div className="flex">
+                    <div className="flex-col">
+                      <Dropdown.Item onClick={() => alert("Apple!")}>
+                      Apple
+                                        
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Settings!")}>
-                      Settings
+                    <Dropdown.Item onClick={() => alert("!")}>
+                      
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Earnings!")}>
-                      Earnings
+                    <Dropdown.Item onClick={() => alert("iPhone __!")}>
+                      iPhone __
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={() => alert("Sign out!")}>
-                      Sign out
+                    <Dropdown.Item onClick={() => alert("iPhone __!")}>
+                      iPhone __
                     </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("iPhone __!")}>
+                      iPhone __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("iPhone __!")}>
+                      iPhone __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("iPhone __!")}>
+                      iPhone __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("iPhone __!")}>
+                      iPhone __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("iPhone __!")}>
+                      iPhone __
+                    </Dropdown.Item>
+                    </div>
+                    
+                    <div>
+                    <Dropdown.Item onClick={() => alert("Samsung!")}>
+                      Samsung
+                    </Dropdown.Item>
+                    
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Galaxy __!")}>
+                      Galaxy __
+                    </Dropdown.Item>
+                    
+                    </div>
+                    <div>
+                    <Dropdown.Item onClick={() => alert("Google!")}>
+                      Google
+                    </Dropdown.Item>
+                    
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Pixel __!")}>
+                      Pixel __
+                    </Dropdown.Item>
+                    
+                    </div>
+                    </div>
+                    <div className="flex">
+                      <Dropdown.Item onClick={() => alert("Xiaomi!")}>
+                      Xiaomi
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={() => alert("Others")}>
+                      Others
+                    </Dropdown.Item>
+                    </div>
+              
                   </Dropdown>
                   {/* {navBarList.map(({ _id, title, link }) => (
                     // <NavLink

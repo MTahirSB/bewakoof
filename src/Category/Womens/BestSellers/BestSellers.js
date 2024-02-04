@@ -1,39 +1,39 @@
 import React from "react";
-import Heading from "../../../Category/Womens/Products/Heading";
-import Product from "../../../Category/Womens/Products/Product";
+import Heading from "../Products/Heading";
+import Product from "../Products/Product";
 import {
-  spfOne,
-  spfTwo,
-  spfThree,
-  spfFour,
+  bestSellerOne,
+  bestSellerTwo,
+  bestSellerThree,
+  bestSellerFour,
 } from "../../../assets/images/index";
 
-const SpecialOffers = () => {
+const BestSellers = () => {
   return (
     <div className="w-full pb-20">
-      <Heading heading="Special Offers" />
+      <Heading heading="Our Bestsellers" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
         <Product
-          _id="1101"
-          img={spfOne}
-          productName="Cap for Boys"
+          _id="1011"
+          img={bestSellerOne}
+          productName="Clothing"
           price="35.00"
           color="Blank and White"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
-          _id="1102"
-          img={spfTwo}
+          _id="1012"
+          img={bestSellerTwo}
           productName="Clothing"
           price="180.00"
           color="Gray"
-          badge={true}
+          badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
-          _id="1103"
-          img={spfThree}
+          _id="1013"
+          img={bestSellerThree}
           productName="Clothing"
           price="25.00"
           color="Mixed"
@@ -41,12 +41,12 @@ const SpecialOffers = () => {
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
         <Product
-          _id="1104"
-          img={spfFour}
-          productName="Sun glasses"
+          _id="1014"
+          img={bestSellerFour}
+          productName="Clothing"
           price="220.00"
           color="Black"
-          badge={true}
+          badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
       </div>
@@ -54,4 +54,4 @@ const SpecialOffers = () => {
   );
 };
 
-export default SpecialOffers;
+export default BestSellers;
