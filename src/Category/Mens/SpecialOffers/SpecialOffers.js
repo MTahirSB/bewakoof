@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "../../../Category/Womens/Products/Heading";
-import Product from "../../../Category/Womens/Products/Product";
+import Heading from "../../Womens/Products/Heading";
+import Product from "../../Womens/Products/Product";
 import {
   spfOne,
   spfTwo,
